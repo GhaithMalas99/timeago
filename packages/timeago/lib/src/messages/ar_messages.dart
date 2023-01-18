@@ -109,23 +109,23 @@ class ArShortMessages implements LookupMessages {
   @override
   String lessThanOneMinute(int seconds) => '$seconds ثا';
   @override
-  String aboutAMinute(int minutes) => '~1 د';
+  String aboutAMinute(int minutes) => '1 د';
   @override
   String minutes(int minutes) => '$minutes د';
   @override
-  String aboutAnHour(int minutes) => '~1 س';
+  String aboutAnHour(int minutes) => '1 س';
   @override
   String hours(int hours) => '$hours س';
   @override
-  String aDay(int hours) => '~1 ي';
+  String aDay(int hours) => '1 ي';
   @override
   String days(int days) => '$days ي';
   @override
-  String aboutAMonth(int days) => '~1 ش';
+  String aboutAMonth(int days) => '1 ش';
   @override
   String months(int months) => '$months ش';
   @override
-  String aboutAYear(int year) => '~1 س';
+  String aboutAYear(int year) => '1 س';
   @override
   String years(int years) => '$years س';
   @override
